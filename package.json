@@ -1,0 +1,24 @@
+{
+  "name": "mern-portfolio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+  "start": "node backend/server.js",
+  "dev": "concurrently \"npm run dev --prefix backend\" \"npm start --prefix frontend\""
+},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Bipasa-bera/mern-portfolio.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Bipasa-bera/mern-portfolio/issues"
+  },
+  "homepage": "https://github.com/Bipasa-bera/mern-portfolio#readme",
+  "dependencies": {
+    "concurrently": "^9.2.1"
+  }
+}
